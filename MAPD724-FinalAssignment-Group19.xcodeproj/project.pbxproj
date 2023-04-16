@@ -16,6 +16,18 @@
 		F6FA6CBF29E1DE1F006C0F89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6FA6CBD29E1DE1F006C0F89 /* LaunchScreen.storyboard */; };
 		F6FA6CC729E1DEB7006C0F89 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FA6CC629E1DEB7006C0F89 /* LocationManager.swift */; };
 		F6FA6CC929E1DEE5006C0F89 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FA6CC829E1DEE5006C0F89 /* SearchViewController.swift */; };
+		F6FA6CCB29E3A4E1006C0F89 /* signUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FA6CCA29E3A4E1006C0F89 /* signUpViewController.swift */; };
+		F6FA6CCD29E3A6F3006C0F89 /* signInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FA6CCC29E3A6F3006C0F89 /* signInViewController.swift */; };
+		F6FA6CCF29E3A982006C0F89 /* signInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FA6CCE29E3A982006C0F89 /* signInfoViewController.swift */; };
+		F6FA6CD529E3BF19006C0F89 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F6FA6CD429E3BF18006C0F89 /* GoogleService-Info.plist */; };
+		F6FA6CD929E4BE07006C0F89 /* userInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FA6CD829E4BE07006C0F89 /* userInfoViewController.swift */; };
+		F6FA6CDB29E5ABDD006C0F89 /* showUserInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FA6CDA29E5ABDD006C0F89 /* showUserInfoViewController.swift */; };
+		F6FA6CDD29E5B50D006C0F89 /* userDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FA6CDC29E5B50D006C0F89 /* userDetailModel.swift */; };
+		F6FA6CDF29E5CE86006C0F89 /* userDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FA6CDE29E5CE86006C0F89 /* userDetailTableViewCell.swift */; };
+		F6FA6CE129E736B6006C0F89 /* getUserDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FA6CE029E736B5006C0F89 /* getUserDetailsViewController.swift */; };
+		F6FA6CE329E75F2C006C0F89 /* myTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FA6CE229E75F2C006C0F89 /* myTableViewController.swift */; };
+		F6FA6CE529E771F8006C0F89 /* listViewFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FA6CE429E771F8006C0F89 /* listViewFile.swift */; };
+		F6FA6CE729E860FE006C0F89 /* dataDef.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FA6CE629E860FE006C0F89 /* dataDef.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +44,18 @@
 		F6FA6CC029E1DE1F006C0F89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F6FA6CC629E1DEB7006C0F89 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		F6FA6CC829E1DEE5006C0F89 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		F6FA6CCA29E3A4E1006C0F89 /* signUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signUpViewController.swift; sourceTree = "<group>"; };
+		F6FA6CCC29E3A6F3006C0F89 /* signInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signInViewController.swift; sourceTree = "<group>"; };
+		F6FA6CCE29E3A982006C0F89 /* signInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signInfoViewController.swift; sourceTree = "<group>"; };
+		F6FA6CD429E3BF18006C0F89 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F6FA6CD829E4BE07006C0F89 /* userInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userInfoViewController.swift; sourceTree = "<group>"; };
+		F6FA6CDA29E5ABDD006C0F89 /* showUserInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = showUserInfoViewController.swift; sourceTree = "<group>"; };
+		F6FA6CDC29E5B50D006C0F89 /* userDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userDetailModel.swift; sourceTree = "<group>"; };
+		F6FA6CDE29E5CE86006C0F89 /* userDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userDetailTableViewCell.swift; sourceTree = "<group>"; };
+		F6FA6CE029E736B5006C0F89 /* getUserDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = getUserDetailsViewController.swift; sourceTree = "<group>"; };
+		F6FA6CE229E75F2C006C0F89 /* myTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myTableViewController.swift; sourceTree = "<group>"; };
+		F6FA6CE429E771F8006C0F89 /* listViewFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = listViewFile.swift; sourceTree = "<group>"; };
+		F6FA6CE629E860FE006C0F89 /* dataDef.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dataDef.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +76,6 @@
 				81070BD08AC8C6C4DA1DD65F /* Pods-MAPD724-FinalAssignment-Group19.debug.xcconfig */,
 				0ABEAF5EB83C65DF623D1871 /* Pods-MAPD724-FinalAssignment-Group19.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -91,6 +114,18 @@
 				F6FA6CB429E1DE1E006C0F89 /* SceneDelegate.swift */,
 				F6FA6CB629E1DE1E006C0F89 /* ViewController.swift */,
 				F6FA6CB829E1DE1E006C0F89 /* Main.storyboard */,
+				F6FA6CE429E771F8006C0F89 /* listViewFile.swift */,
+				F6FA6CE229E75F2C006C0F89 /* myTableViewController.swift */,
+				F6FA6CE029E736B5006C0F89 /* getUserDetailsViewController.swift */,
+				F6FA6CE629E860FE006C0F89 /* dataDef.swift */,
+				F6FA6CDE29E5CE86006C0F89 /* userDetailTableViewCell.swift */,
+				F6FA6CDA29E5ABDD006C0F89 /* showUserInfoViewController.swift */,
+				F6FA6CDC29E5B50D006C0F89 /* userDetailModel.swift */,
+				F6FA6CD829E4BE07006C0F89 /* userInfoViewController.swift */,
+				F6FA6CCE29E3A982006C0F89 /* signInfoViewController.swift */,
+				F6FA6CCC29E3A6F3006C0F89 /* signInViewController.swift */,
+				F6FA6CCA29E3A4E1006C0F89 /* signUpViewController.swift */,
+				F6FA6CD429E3BF18006C0F89 /* GoogleService-Info.plist */,
 				F6FA6CBB29E1DE1F006C0F89 /* Assets.xcassets */,
 				F6FA6CBD29E1DE1F006C0F89 /* LaunchScreen.storyboard */,
 				F6FA6CC029E1DE1F006C0F89 /* Info.plist */,
@@ -159,6 +194,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F6FA6CBF29E1DE1F006C0F89 /* LaunchScreen.storyboard in Resources */,
+				F6FA6CD529E3BF19006C0F89 /* GoogleService-Info.plist in Resources */,
 				F6FA6CBC29E1DE1F006C0F89 /* Assets.xcassets in Resources */,
 				F6FA6CBA29E1DE1E006C0F89 /* Main.storyboard in Resources */,
 			);
@@ -213,11 +249,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6FA6CDD29E5B50D006C0F89 /* userDetailModel.swift in Sources */,
+				F6FA6CE729E860FE006C0F89 /* dataDef.swift in Sources */,
+				F6FA6CE329E75F2C006C0F89 /* myTableViewController.swift in Sources */,
+				F6FA6CE529E771F8006C0F89 /* listViewFile.swift in Sources */,
+				F6FA6CDB29E5ABDD006C0F89 /* showUserInfoViewController.swift in Sources */,
 				F6FA6CC929E1DEE5006C0F89 /* SearchViewController.swift in Sources */,
 				F6FA6CC729E1DEB7006C0F89 /* LocationManager.swift in Sources */,
+				F6FA6CE129E736B6006C0F89 /* getUserDetailsViewController.swift in Sources */,
+				F6FA6CCB29E3A4E1006C0F89 /* signUpViewController.swift in Sources */,
+				F6FA6CCF29E3A982006C0F89 /* signInfoViewController.swift in Sources */,
 				F6FA6CB729E1DE1E006C0F89 /* ViewController.swift in Sources */,
+				F6FA6CD929E4BE07006C0F89 /* userInfoViewController.swift in Sources */,
 				F6FA6CB329E1DE1E006C0F89 /* AppDelegate.swift in Sources */,
+				F6FA6CDF29E5CE86006C0F89 /* userDetailTableViewCell.swift in Sources */,
 				F6FA6CB529E1DE1E006C0F89 /* SceneDelegate.swift in Sources */,
+				F6FA6CCD29E3A6F3006C0F89 /* signInViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

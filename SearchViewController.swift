@@ -7,12 +7,15 @@
 
 import UIKit
 import CoreLocation
+import MapKit
+
 
 protocol SearchViewControllerDelegate: AnyObject{
     func searchViewController(_ vc: SearchViewController, didSelectLocationWith coordinates: CLLocationCoordinate2D?)
 }
 
-class SearchViewController: UIViewController, UITextFieldDelegate, UITableViewDelegate, UITableViewDataSource {
+class SearchViewController: UIViewController, UITextFieldDelegate, UITableViewDelegate, UITableViewDataSource, CLLocationManagerDelegate {
+    
     
     weak var delegate: SearchViewControllerDelegate?
     
