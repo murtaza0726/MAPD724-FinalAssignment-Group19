@@ -17,8 +17,8 @@ class signInfoViewController: UIViewController {
         super.viewDidLoad()
         if Auth.auth().currentUser != nil {
             
-            let userPageVC = self.storyboard?.instantiateViewController(withIdentifier: "userInfoVC") as! userInfoViewController
-            self.navigationController?.pushViewController(userPageVC, animated: true)
+//            let userPageVC = self.storyboard?.instantiateViewController(withIdentifier: "userInfoVC") as! userInfoViewController
+//            self.navigationController?.pushViewController(userPageVC, animated: true)
             print("user is logged in")
         }else{
             print("user is not logged in")
