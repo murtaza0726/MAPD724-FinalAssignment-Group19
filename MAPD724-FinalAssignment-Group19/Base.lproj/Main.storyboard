@@ -141,7 +141,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" systemColor="secondarySystemBackgroundColor"/>
+                                <color key="backgroundColor" systemColor="tertiaryLabelColor"/>
                                 <constraints>
                                     <constraint firstItem="Ezj-SW-sPx" firstAttribute="leading" secondItem="gTA-kG-fhr" secondAttribute="leading" id="10X-P2-olr"/>
                                     <constraint firstItem="tss-hb-4Ux" firstAttribute="centerX" secondItem="BE1-CV-WR9" secondAttribute="centerX" id="4wu-Pk-n6d"/>
@@ -197,7 +197,66 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QY6-fb-IXb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1589" y="1560"/>
+            <point key="canvasLocation" x="2636" y="1217"/>
+        </scene>
+        <!--Not In User View Controller-->
+        <scene sceneID="fj4-5R-iMe">
+            <objects>
+                <viewController storyboardIdentifier="nOK" id="NaH-EX-5c9" customClass="NotInUserViewController" customModule="MAPD724_FinalAssignment_Group19" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Vc0-KM-eBZ">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Page Coming Soon.." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OEX-Y0-lrS">
+                                <rect key="frame" x="16" y="318" width="361" height="93"/>
+                                <fontDescription key="fontDescription" name="Charter-Roman" family="Charter" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="navi" translatesAutoresizingMaskIntoConstraints="NO" id="PAu-KP-WKD">
+                                <rect key="frame" x="92" y="81" width="209" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="mhq-IE-Onf"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NaviGo" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nxn-3b-YSq">
+                                <rect key="frame" x="92" y="187" width="209" height="66"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="66" id="LHD-Dr-8I2"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Charter-Bold" family="Charter" pointSize="25"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome Back !!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1hY-SW-6sg">
+                                <rect key="frame" x="105" y="261" width="183" height="37"/>
+                                <fontDescription key="fontDescription" name="Charter-Bold" family="Charter" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="yJT-wZ-Oyt"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="nxn-3b-YSq" firstAttribute="top" secondItem="yJT-wZ-Oyt" secondAttribute="top" constant="128" id="1zt-RB-0X1"/>
+                            <constraint firstItem="PAu-KP-WKD" firstAttribute="top" secondItem="yJT-wZ-Oyt" secondAttribute="top" constant="22" id="3Fx-WD-PaF"/>
+                            <constraint firstItem="1hY-SW-6sg" firstAttribute="centerX" secondItem="nxn-3b-YSq" secondAttribute="centerX" id="Jy8-VW-quu"/>
+                            <constraint firstItem="PAu-KP-WKD" firstAttribute="leading" secondItem="nxn-3b-YSq" secondAttribute="leading" id="LkO-xC-Gxd"/>
+                            <constraint firstItem="PAu-KP-WKD" firstAttribute="leading" secondItem="yJT-wZ-Oyt" secondAttribute="leading" constant="92" id="QLS-Ql-Mdb"/>
+                            <constraint firstItem="nxn-3b-YSq" firstAttribute="centerX" secondItem="OEX-Y0-lrS" secondAttribute="centerX" id="WwM-P3-iS3"/>
+                            <constraint firstItem="1hY-SW-6sg" firstAttribute="leading" secondItem="yJT-wZ-Oyt" secondAttribute="leading" constant="105" id="XW1-4U-KG8"/>
+                            <constraint firstItem="OEX-Y0-lrS" firstAttribute="top" secondItem="1hY-SW-6sg" secondAttribute="bottom" constant="20" id="Yvs-Pw-fi0"/>
+                            <constraint firstItem="1hY-SW-6sg" firstAttribute="top" secondItem="nxn-3b-YSq" secondAttribute="bottom" constant="8" symbolic="YES" id="ahM-fr-hVw"/>
+                            <constraint firstItem="PAu-KP-WKD" firstAttribute="centerX" secondItem="Vc0-KM-eBZ" secondAttribute="centerX" id="leT-SW-qgv"/>
+                            <constraint firstItem="OEX-Y0-lrS" firstAttribute="top" secondItem="nxn-3b-YSq" secondAttribute="bottom" constant="65" id="wfS-hu-7mg"/>
+                            <constraint firstItem="PAu-KP-WKD" firstAttribute="trailing" secondItem="nxn-3b-YSq" secondAttribute="trailing" id="zLm-7l-Tob"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uCm-ZE-WAz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1716.7938931297708" y="1625.3521126760563"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="cAq-Bq-ixd">
@@ -363,7 +422,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BCJ-kZ-Syu" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2640" y="855"/>
+            <point key="canvasLocation" x="3637" y="855"/>
         </scene>
         <!--Get User Details View Controller-->
         <scene sceneID="SW1-hE-VSQ">
@@ -423,7 +482,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rhb-w0-g0F" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1589" y="855"/>
+            <point key="canvasLocation" x="1717" y="855"/>
         </scene>
         <!--Sign Up View Controller-->
         <scene sceneID="ptb-rd-UHp">
@@ -653,16 +712,13 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yw3-hZ-ebA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2640" y="1536"/>
+            <point key="canvasLocation" x="3637" y="1536"/>
         </scene>
     </scenes>
     <resources>
         <image name="navi" width="512" height="512"/>
         <image name="search" width="25" height="25"/>
         <image name="signIn" width="25" height="25"/>
-        <systemColor name="secondarySystemBackgroundColor">
-            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
@@ -671,6 +727,9 @@
         </systemColor>
         <systemColor name="systemPinkColor">
             <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="tertiaryLabelColor">
+            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.29803921568627451" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

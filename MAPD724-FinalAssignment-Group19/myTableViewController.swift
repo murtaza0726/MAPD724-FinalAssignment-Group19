@@ -34,7 +34,14 @@ extension myTableViewController: UITableViewDelegate, UITableViewDataSource
     }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         print("info button tapped")
-        check()
+        if indexPath.row == 0
+        {
+            check()
+        }else{
+            print("Welcome")
+            let welcomeVC = self.storyboard?.instantiateViewController(withIdentifier: "nOK") as! NotInUserViewController
+            self.navigationController?.pushViewController(welcomeVC, animated: true)
+        }
     }
     
     func check(){
