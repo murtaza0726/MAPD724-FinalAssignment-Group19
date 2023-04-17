@@ -24,16 +24,13 @@ class signInViewController: UIViewController {
         invalidPasswordText.isEnabled = false
         
         //padding for text field
-        emailText.leftView = UIView(frame: CGRect(x: 0, y: 0, width: 0, height: passwordText.frame.height))
+        emailText.leftView = UIView(frame: CGRect(x: 0, y: 0, width: 10, height: passwordText.frame.height))
         emailText.layer.cornerRadius = 10
         emailText.leftViewMode = .always
-//        emailText.textColor = .secondarySystemBackground
         
         passwordText.leftView = UIView(frame: CGRect(x: 0, y: 0, width: 10, height: passwordText.frame.height))
         passwordText.layer.cornerRadius = 10
         passwordText.leftViewMode = .always
-//        passwordText.textColor = .secondarySystemBackground
-        // Do any additional setup after loading the view.
     }
     
     @IBAction func signInBtn(_ sender: UIButton) {
@@ -56,10 +53,6 @@ class signInViewController: UIViewController {
             }else{
                 let tabBarC = self.storyboard?.instantiateViewController(withIdentifier: "showUserInfo") as! getUserDetailsViewController
                   self.navigationController?.pushViewController(tabBarC, animated: true)
-                
-                //navigate to app home page
-//                let homePageVC = self.storyboard?.instantiateViewController(withIdentifier: "mapVC") as! ViewController
-//                self.navigationController?.pushViewController(homePageVC, animated: true)
             }
         }
     }

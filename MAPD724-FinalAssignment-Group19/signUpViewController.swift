@@ -91,32 +91,6 @@ class signUpViewController: UIViewController {
         let docRef = database.document("users/userDetails")
         docRef.setData(["firstName" : firstName, "LastName": LastName, "phone": phone, "email": email, "password" : password])
     }
-//    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
-//        let text1 = fNameText.text
-//        let text2 = LastNameText.text
-//        let text3 = phoneNumText.text
-//        let text4 = emailText.text
-//        let text5 = passwordText.text
-//        if(text1 != nil && text2 != nil && text3 != nil && text4 != nil && text5 != nil){
-//            saveData(firstName: text1 ?? "", LastName: text2 ?? "", phone: text3 ?? "", password: text4 ?? "", email: text5 ?? "")
-//
-//        }
-//        return true
-//    }
-    
-    //function to save user info to database
-    
-    //func saveData(){
-    //func saveData(text1: String, text2: String, text3: String, text4: String, text5: String){
-        //firestore
-//        writeData(firstName: text1, LastName: text2, phone: text3, password: text4, email: text5)
-        
-        //real time firebas database
-//        let dict = ["firstName":fNameText.text!, "LastName":LastNameText.text!, "phone":phoneNumText.text!, "email":emailText.text!, "password":passwordText.text!]
-//        self.ref.child("userDetails").childByAutoId().setValue(dict)
-    //}
-    
-    //function to ccreate user for login
     
     func createUserfunc(){
         Auth.auth().createUser(withEmail: emailText.text ?? "", password: passwordText.text ?? "") { firebaseResult, error in
@@ -124,14 +98,11 @@ class signUpViewController: UIViewController {
                 print(e.localizedDescription)
                 print("not working")
             }else{
-//                self.tabBarController?.selectedIndex = 0
-                //navigate to app home page
-//                let homePageVC = self.storyboard?.instantiateViewController(withIdentifier: "mapVC") as! ViewController
                 self.navigationController?.popToRootViewController(animated: true)
-//                //self.navigationController?.pushViewController(homePageVC, animated: true)
             }
         }
     }
+    
     //function to validate email address field
     func emailValidate(){
         if (emailText.text?.isValidEmail)!{

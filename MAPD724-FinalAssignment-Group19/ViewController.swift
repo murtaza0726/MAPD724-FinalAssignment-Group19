@@ -55,10 +55,7 @@ class ViewController: UIViewController, SearchViewControllerDelegate, CLLocation
         }
         
         func setupLabelTap() {
-            
             let labelTap = UITapGestureRecognizer(target: self, action: #selector(self.labelTapped(_:)))
-            //self.title.isUserInteractionEnabled = true
-            //self.title.addGestureRecognizer(labelTap)
             
         }
     

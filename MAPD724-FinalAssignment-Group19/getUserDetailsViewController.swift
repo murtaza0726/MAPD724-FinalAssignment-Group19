@@ -21,18 +21,17 @@ class getUserDetailsViewController: UIViewController {
     
     var toDoArray = [userDataDef]()
 
-    
     var toDoArrayDic = [[String: Any]]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = "User Details"
+        logout()
         //getData()
         
         //dataTableView.reloadData()
         //nav.first
 
-        
         toDoArrayDic.append(["User": "First Name", "Details":"Murtaza"])
         toDoArrayDic.append(["User": "Last Name", "Details": "Haider"])
         toDoArrayDic.append(["User": "Email", "Details": "murtaza@gmail.com"])
@@ -64,14 +63,6 @@ class getUserDetailsViewController: UIViewController {
 //                self.dataTableView.insertRows(at: [indexPath], with: .automatic)
 //            }
 //        }
-        
-        
-        
-        
-        
-        
-        
-        
 //        let collectionRef = db.collection("NShWiW_-fUExry5KdS3")
 //        collectionRef.getDocuments { (querySnapshot, error) in
 //            if let error = error {
@@ -88,15 +79,6 @@ class getUserDetailsViewController: UIViewController {
 //            }
 //        }
         
-        
-        
-        
-        
-        
-        
-        
-        
-        
         //        getDataFromDB()
         //    }
         //    func getDataFromDB(){
@@ -112,7 +94,26 @@ class getUserDetailsViewController: UIViewController {
         //            }
         //        }
         //    }
-    }}
+    }
+    func logout(){
+        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Sign Out", style: .done, target: self, action: #selector(log))
+    }
+    @objc func log(){
+        let auth = Auth.auth()
+        do{
+            try auth.signOut()
+            let userPageVC = self.storyboard?.instantiateViewController(withIdentifier: "signInfoVC") as!
+            signInfoViewController
+            self.navigationController?.pushViewController(userPageVC, animated: true)
+            print("user is logged out successfully")
+            
+        }catch
+        {
+            print("Error in signOut")
+        }
+    }
+    
+}
     extension getUserDetailsViewController: UITableViewDelegate, UITableViewDataSource{
         
         func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {

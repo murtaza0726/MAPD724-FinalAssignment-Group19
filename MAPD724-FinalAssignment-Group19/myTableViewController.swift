@@ -11,7 +11,6 @@ import FirebaseAuth
 
 class myTableViewController: UIViewController {
 
-    
     @IBOutlet var mytableView: UITableView!
     
     var profilArrData = ["User Profile", "Notifications", "Location Services", "Country/Region", "Contact Us", "Help and Information", "Privacy Policy", "Setting", "Terms & Conditions"]
@@ -35,20 +34,25 @@ extension myTableViewController: UITableViewDelegate, UITableViewDataSource
     }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         print("info button tapped")
-        
-        if Auth.auth().currentUser != nil {
-
-            let userPageVC = self.storyboard?.instantiateViewController(withIdentifier: "showUserInfo") as! getUserDetailsViewController
-            self.navigationController?.pushViewController(userPageVC, animated: true)
-            print("user is logged in")
-            let userID : String = (Auth.auth().currentUser?.uid)!
-                print("Current user ID is : " + userID)
+        check()
+    }
+    
+    func check(){
+        if Auth.auth().currentUser?.uid != nil {
+            Auth.auth().currentUser?.reload(completion: { (error) in
+                        if let error = error {
+                            print("checkIfUserSignedIn \(error.localizedDescription)")
+                        }
+                let userPageVC = self.storyboard?.instantiateViewController(withIdentifier: "showUserInfo") as! getUserDetailsViewController
+                self.navigationController?.pushViewController(userPageVC, animated: true)
+                print("user is logged in")
+                let userID = (Auth.auth().currentUser?.uid) ?? ""
+                    print("Current user ID is : " + userID)
+                    })
         }else{
             let userPageVC = self.storyboard?.instantiateViewController(withIdentifier: "signInfoVC") as! signInfoViewController
             self.navigationController?.pushViewController(userPageVC, animated: true)
             print("user is not logged in")
         }
     }
-    
-    
 }
