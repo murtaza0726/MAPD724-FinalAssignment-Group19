@@ -3,7 +3,12 @@
 //  MAPD724-FinalAssignment-Group19
 //
 //  Created by Murtaza Haider Naqvi on 2023-04-08.
-//
+
+//  Murtaza Haider Naqvi-301289355
+//  Tanishk Sai Reddy Peruvala – 301293616
+//  Niraj Nepal-301211100
+//  Dhanush Sriram-301299251
+//  Jashandeep Kaur Sidhu-301293237
 
 import UIKit
 import MapKit
