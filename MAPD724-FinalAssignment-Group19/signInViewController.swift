@@ -51,8 +51,9 @@ class signInViewController: UIViewController {
                 self.invalidPasswordText.textColor = UIColor.red
                 
             }else{
-                let tabBarC = self.storyboard?.instantiateViewController(withIdentifier: "showUserInfo") as! getUserDetailsViewController
-                  self.navigationController?.pushViewController(tabBarC, animated: true)
+//                let tabBarC = self.storyboard?.instantiateViewController(withIdentifier: "showUserInfo") as! getUserDetailsViewController
+//                  self.navigationController?.pushViewController(tabBarC, animated: true)
+                self.navigationController?.popToRootViewController(animated: true)
             }
         }
     }
