@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		66C7454B1BDA6F2D49152083 /* Pods_MAPD724_FinalAssignment_Group19.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5CCC324EEBF4EAF2DAB788 /* Pods_MAPD724_FinalAssignment_Group19.framework */; };
-		F6EED4C329ECF327008FD0AF /* NotInUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EED4C229ECF327008FD0AF /* NotInUserViewController.swift */; };
 		F6FA6CB329E1DE1E006C0F89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FA6CB229E1DE1E006C0F89 /* AppDelegate.swift */; };
 		F6FA6CB529E1DE1E006C0F89 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FA6CB429E1DE1E006C0F89 /* SceneDelegate.swift */; };
 		F6FA6CB729E1DE1E006C0F89 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FA6CB629E1DE1E006C0F89 /* ViewController.swift */; };
@@ -31,7 +30,6 @@
 		0ABEAF5EB83C65DF623D1871 /* Pods-MAPD724-FinalAssignment-Group19.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MAPD724-FinalAssignment-Group19.release.xcconfig"; path = "Target Support Files/Pods-MAPD724-FinalAssignment-Group19/Pods-MAPD724-FinalAssignment-Group19.release.xcconfig"; sourceTree = "<group>"; };
 		3D5CCC324EEBF4EAF2DAB788 /* Pods_MAPD724_FinalAssignment_Group19.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MAPD724_FinalAssignment_Group19.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		81070BD08AC8C6C4DA1DD65F /* Pods-MAPD724-FinalAssignment-Group19.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MAPD724-FinalAssignment-Group19.debug.xcconfig"; path = "Target Support Files/Pods-MAPD724-FinalAssignment-Group19/Pods-MAPD724-FinalAssignment-Group19.debug.xcconfig"; sourceTree = "<group>"; };
-		F6EED4C229ECF327008FD0AF /* NotInUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotInUserViewController.swift; sourceTree = "<group>"; };
 		F6FA6CAF29E1DE1E006C0F89 /* MAPD724-FinalAssignment-Group19.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MAPD724-FinalAssignment-Group19.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6FA6CB229E1DE1E006C0F89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F6FA6CB429E1DE1E006C0F89 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -108,7 +106,6 @@
 				F6FA6CB429E1DE1E006C0F89 /* SceneDelegate.swift */,
 				F6FA6CB629E1DE1E006C0F89 /* ViewController.swift */,
 				F6FA6CB829E1DE1E006C0F89 /* Main.storyboard */,
-				F6EED4C229ECF327008FD0AF /* NotInUserViewController.swift */,
 				F6FA6CE229E75F2C006C0F89 /* myTableViewController.swift */,
 				F6FA6CE029E736B5006C0F89 /* getUserDetailsViewController.swift */,
 				F6FA6CE629E860FE006C0F89 /* dataDef.swift */,
@@ -249,7 +246,6 @@
 				F6FA6CCB29E3A4E1006C0F89 /* signUpViewController.swift in Sources */,
 				F6FA6CCF29E3A982006C0F89 /* signInfoViewController.swift in Sources */,
 				F6FA6CB729E1DE1E006C0F89 /* ViewController.swift in Sources */,
-				F6EED4C329ECF327008FD0AF /* NotInUserViewController.swift in Sources */,
 				F6FA6CB329E1DE1E006C0F89 /* AppDelegate.swift in Sources */,
 				F6FA6CB529E1DE1E006C0F89 /* SceneDelegate.swift in Sources */,
 				F6FA6CCD29E3A6F3006C0F89 /* signInViewController.swift in Sources */,
