@@ -8,11 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		66C7454B1BDA6F2D49152083 /* Pods_MAPD724_FinalAssignment_Group19.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5CCC324EEBF4EAF2DAB788 /* Pods_MAPD724_FinalAssignment_Group19.framework */; };
+		F60AE20D29F34491005C12E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F60AE20B29F34491005C12E1 /* Main.storyboard */; };
 		F645F5C229F3375500018179 /* NotInUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F645F5C129F3375500018179 /* NotInUserViewController.swift */; };
 		F6FA6CB329E1DE1E006C0F89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FA6CB229E1DE1E006C0F89 /* AppDelegate.swift */; };
 		F6FA6CB529E1DE1E006C0F89 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FA6CB429E1DE1E006C0F89 /* SceneDelegate.swift */; };
 		F6FA6CB729E1DE1E006C0F89 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FA6CB629E1DE1E006C0F89 /* ViewController.swift */; };
-		F6FA6CBA29E1DE1E006C0F89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6FA6CB829E1DE1E006C0F89 /* Main.storyboard */; };
 		F6FA6CBC29E1DE1F006C0F89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6FA6CBB29E1DE1F006C0F89 /* Assets.xcassets */; };
 		F6FA6CBF29E1DE1F006C0F89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6FA6CBD29E1DE1F006C0F89 /* LaunchScreen.storyboard */; };
 		F6FA6CC729E1DEB7006C0F89 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FA6CC629E1DEB7006C0F89 /* LocationManager.swift */; };
@@ -31,12 +31,12 @@
 		0ABEAF5EB83C65DF623D1871 /* Pods-MAPD724-FinalAssignment-Group19.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MAPD724-FinalAssignment-Group19.release.xcconfig"; path = "Target Support Files/Pods-MAPD724-FinalAssignment-Group19/Pods-MAPD724-FinalAssignment-Group19.release.xcconfig"; sourceTree = "<group>"; };
 		3D5CCC324EEBF4EAF2DAB788 /* Pods_MAPD724_FinalAssignment_Group19.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MAPD724_FinalAssignment_Group19.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		81070BD08AC8C6C4DA1DD65F /* Pods-MAPD724-FinalAssignment-Group19.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MAPD724-FinalAssignment-Group19.debug.xcconfig"; path = "Target Support Files/Pods-MAPD724-FinalAssignment-Group19/Pods-MAPD724-FinalAssignment-Group19.debug.xcconfig"; sourceTree = "<group>"; };
+		F60AE20C29F34491005C12E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../../../../../MAPD724-FinalAssignment-Group19-main/MAPD724-FinalAssignment-Group19/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
 		F645F5C129F3375500018179 /* NotInUserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NotInUserViewController.swift; path = ../../../../../../.Trash/NotInUserViewController.swift; sourceTree = "<group>"; };
 		F6FA6CAF29E1DE1E006C0F89 /* MAPD724-FinalAssignment-Group19.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MAPD724-FinalAssignment-Group19.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6FA6CB229E1DE1E006C0F89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F6FA6CB429E1DE1E006C0F89 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		F6FA6CB629E1DE1E006C0F89 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F6FA6CB929E1DE1E006C0F89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F6FA6CBB29E1DE1F006C0F89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F6FA6CBE29E1DE1F006C0F89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F6FA6CC029E1DE1F006C0F89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -107,9 +107,9 @@
 				F6FA6CB229E1DE1E006C0F89 /* AppDelegate.swift */,
 				F6FA6CB429E1DE1E006C0F89 /* SceneDelegate.swift */,
 				F6FA6CB629E1DE1E006C0F89 /* ViewController.swift */,
-				F6FA6CB829E1DE1E006C0F89 /* Main.storyboard */,
 				F645F5C129F3375500018179 /* NotInUserViewController.swift */,
 				F6FA6CE229E75F2C006C0F89 /* myTableViewController.swift */,
+				F60AE20B29F34491005C12E1 /* Main.storyboard */,
 				F6FA6CE029E736B5006C0F89 /* getUserDetailsViewController.swift */,
 				F6FA6CE629E860FE006C0F89 /* dataDef.swift */,
 				F6FA6CDC29E5B50D006C0F89 /* userDetailModel.swift */,
@@ -187,7 +187,7 @@
 				F6FA6CBF29E1DE1F006C0F89 /* LaunchScreen.storyboard in Resources */,
 				F6FA6CD529E3BF19006C0F89 /* GoogleService-Info.plist in Resources */,
 				F6FA6CBC29E1DE1F006C0F89 /* Assets.xcassets in Resources */,
-				F6FA6CBA29E1DE1E006C0F89 /* Main.storyboard in Resources */,
+				F60AE20D29F34491005C12E1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,10 +259,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F6FA6CB829E1DE1E006C0F89 /* Main.storyboard */ = {
+		F60AE20B29F34491005C12E1 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F6FA6CB929E1DE1E006C0F89 /* Base */,
+				F60AE20C29F34491005C12E1 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";

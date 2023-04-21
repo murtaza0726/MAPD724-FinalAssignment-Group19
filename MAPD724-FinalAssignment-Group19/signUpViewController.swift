@@ -150,7 +150,7 @@ class signUpViewController: UIViewController {
         if(LastNameText.text?.isEmpty)!{
             self.invalidLastName.isEnabled = true
             self.invalidLastName.textColor = UIColor.red
-            self.invalidLastName.text = "PField can not be Empty"
+            self.invalidLastName.text = "Field can not be Empty"
         }
     }
 }
